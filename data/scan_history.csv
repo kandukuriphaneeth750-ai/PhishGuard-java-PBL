@@ -184,3 +184,5 @@ Timestamp,Submitted URL,Risk Score,Risk Category,Summary Findings
 2026-10-26 20:21:26,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
 2026-10-26 22:44:44,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
 2026-10-26 22:44:48,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 16:40:55,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 16:40:57,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
