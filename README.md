@@ -1,4 +1,4 @@
-# 🛡️ PhishGuard — Rule-Based Suspicious URL Analyzer
+﻿# ≡ƒ¢í∩╕Å PhishGuard ΓÇö Rule-Based Suspicious URL Analyzer
 
 > **A polished, beginner-friendly Java cybersecurity desktop application developed for the College Java Problem-Based Learning (PBL) Exhibition (12 November 2026).**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+## ≡ƒôî Project Overview
 
 **PhishGuard** is an interactive desktop application that inspects and evaluates suspicious web links (URLs) using a deterministic, rule-based heuristic scoring engine. Built purely in Java without heavy external dependencies, it demonstrates foundational Object-Oriented Programming (OOP) concepts, graphical user interface (GUI) design with Java Swing, defensive programming, and secure local file I/O.
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎨 Visual Interface & Dashboard Features
+## ≡ƒÄ¿ Visual Interface & Dashboard Features
 
 The application is styled with a sleek, cybersecurity-themed dark navy palette:
 - **Base Background:** Deep Midnight Navy (`#0B132B`)
@@ -32,22 +32,22 @@ The application is styled with a sleek, cybersecurity-themed dark navy palette:
 ### Main Dashboard Components:
 1. **Header Emblem:** PhishGuard shield branding and exhibition subtitle.
 2. **URL Input Field:** Accepts any URL string for instant inspection (supports Enter key submission).
-3. **⚡ Analyze URL Button:** Runs the 10-heuristic rule engine.
-4. **🎲 Sample URL Button:** Cycles through 7 pre-curated test cases ranging from clean HTTPS domains to complex phishing simulations.
-5. **✖ Clear Button:** Resets all inputs, cards, and indicators.
+3. **ΓÜí Analyze URL Button:** Runs the 10-heuristic rule engine.
+4. **≡ƒÄ▓ Sample URL Button:** Cycles through 7 pre-curated test cases ranging from clean HTTPS domains to complex phishing simulations.
+5. **Γ£û Clear Button:** Resets all inputs, cards, and indicators.
 6. **Risk Score Card:** Visual display of the computed score (0 to 100).
 7. **Risk Category Badge:** Dynamic colored pill (`Low Risk Indicators`, `Moderate Risk Indicators`, `High Risk Indicators`).
 8. **Summary Panel:** Shows parsed scheme, identified host, length in characters, and validation state.
 9. **Findings Breakdown:** Lists each triggered heuristic indicator with severity tags, points awarded, and plain-English explanations.
 10. **Action Toolbar:** 
-    - `📋 Copy Full Report`: Copies formatted text report to system clipboard.
-    - `💾 Export to Text File`: Saves analysis report to `.txt` file via file chooser.
+    - `≡ƒôï Copy Full Report`: Copies formatted text report to system clipboard.
+    - `≡ƒÆ╛ Export to Text File`: Saves analysis report to `.txt` file via file chooser.
 11. **Scan History Tab:** Displays persistent historical records with click-to-reload and clear history confirmation.
 12. **About & Limitations Tab:** Clearly explains that static rules are educational heuristics and do not guarantee web safety.
 
 ---
 
-## 🧠 Heuristic Detection Rules & Scoring Matrix
+## ≡ƒºá Heuristic Detection Rules & Scoring Matrix
 
 The risk score starts at 0, accumulates points based on triggered rules, and is capped at **100**:
 
@@ -59,61 +59,61 @@ The risk score starts at 0, accumulates points based on triggered rules, and is 
 | `RULE_AT_SYMBOL` | Embedded `@` symbol | **+20 pts** | Exploits browser credential parsing (`legit.com@attacker.com`) to mislead users. |
 | `RULE_IP_HOST` | Raw IPv4 Address Hostname | **+20 pts** | Direct IP addresses (e.g., `192.168.1.1`) bypass DNS reputation and domain checks. |
 | `RULE_SUSPICIOUS_WORD` | Sensitive Keywords | **+10 pts** | Keywords like `login`, `verify`, `banking`, `account`, `update` lure victims. |
-| `RULE_EXCESSIVE_SUBDOMAINS` | Excessive Subdomains (≥ 3) | **+10 pts** | Stacking brand names before attacker domains (e.g. `paypal.com.evil.xyz`). |
+| `RULE_EXCESSIVE_SUBDOMAINS` | Excessive Subdomains (ΓëÑ 3) | **+10 pts** | Stacking brand names before attacker domains (e.g. `paypal.com.evil.xyz`). |
 | `RULE_PUNYCODE` | Punycode IDN (`xn--`) | **+10 pts** | Homograph attacks using foreign lookalike characters to spoof authentic brands. |
 | `RULE_URL_SHORTENER` | Known URL Shortener | **+15 pts** | Services like `bit.ly` or `tinyurl.com` mask the destination domain. |
-| `RULE_DIGIT_SEQUENCE` | Long Digit Sequence (≥ 4) | **+5 pts** | Characteristic of dynamically generated or temporary disposable burner domains. |
+| `RULE_DIGIT_SEQUENCE` | Long Digit Sequence (ΓëÑ 4) | **+5 pts** | Characteristic of dynamically generated or temporary disposable burner domains. |
 
 ### Classification Thresholds:
-- **0–29 Points:** `Low Risk Indicators` (Clean, standard domains)
-- **30–59 Points:** `Moderate Risk Indicators` (Unusual attributes detected)
-- **60–100 Points:** `High Risk Indicators` (Multiple severe phishing patterns)
+- **0ΓÇô29 Points:** `Low Risk Indicators` (Clean, standard domains)
+- **30ΓÇô59 Points:** `Moderate Risk Indicators` (Unusual attributes detected)
+- **60ΓÇô100 Points:** `High Risk Indicators` (Multiple severe phishing patterns)
 
 ---
 
-## 📂 Project Directory Structure
+## ≡ƒôé Project Directory Structure
 
 ```
 PhishGuard project/
-├── src/
-│   └── com/
-│       └── phishguard/
-│           ├── Main.java               # Application entry point & Swing EDT launcher
-│           ├── model/
-│           │   ├── AnalysisResult.java # URL analysis data model & report generator
-│           │   └── RuleViolation.java  # Individual rule violation entity
-│           ├── analyzer/
-│           │   └── UrlAnalyzer.java    # Pure Java heuristic parsing & scoring engine
-│           ├── history/
-│           │   └── ScanHistory.java    # Local CSV logger with formula injection protection
-│           ├── ui/
-│           │   ├── MainFrame.java      # Complete Swing dark navy dashboard
-│           │   └── ThemeConstants.java # Design system tokens (colors, fonts, borders)
-│           └── util/
-│               └── ReportExporter.java # Clipboard copy & file export helper
-├── test/
-│   └── com/
-│       └── phishguard/
-│           └── PhishGuardTestRunner.java # Dependency-free automated test runner (13 test suites)
-├── docs/
-│   ├── BEGINNER_SETUP.md               # Step-by-step setup, compilation, and exhibition demo guide
-│   ├── PROJECT_REPORT.md               # Full college project report (abstract, architecture, algorithms)
-│   ├── TEST_CASES.md                   # Formal test specification and verification results
-│   ├── VIVA_QUESTIONS.md               # 28 technical viva questions and answers
-│   └── TEAM_PLAN.md                    # 4-member roles, responsibilities, and placeholders
-├── data/
-│   └── scan_history.csv                # Persistent local scan log (auto-generated)
-├── compile.bat                         # 1-click Windows compilation script
-├── run.bat                             # 1-click Windows application launcher
-├── test.bat                            # 1-click Windows test suite runner
-├── .gitignore                          # Standard git ignore file
-├── LICENSE                             # MIT Open-Source License
-└── README.md                           # Master project documentation
+Γö£ΓöÇΓöÇ src/
+Γöé   ΓööΓöÇΓöÇ com/
+Γöé       ΓööΓöÇΓöÇ phishguard/
+Γöé           Γö£ΓöÇΓöÇ Main.java               # Application entry point & Swing EDT launcher
+Γöé           Γö£ΓöÇΓöÇ model/
+Γöé           Γöé   Γö£ΓöÇΓöÇ AnalysisResult.java # URL analysis data model & report generator
+Γöé           Γöé   ΓööΓöÇΓöÇ RuleViolation.java  # Individual rule violation entity
+Γöé           Γö£ΓöÇΓöÇ analyzer/
+Γöé           Γöé   ΓööΓöÇΓöÇ UrlAnalyzer.java    # Pure Java heuristic parsing & scoring engine
+Γöé           Γö£ΓöÇΓöÇ history/
+Γöé           Γöé   ΓööΓöÇΓöÇ ScanHistory.java    # Local CSV logger with formula injection protection
+Γöé           Γö£ΓöÇΓöÇ ui/
+Γöé           Γöé   Γö£ΓöÇΓöÇ MainFrame.java      # Complete Swing dark navy dashboard
+Γöé           Γöé   ΓööΓöÇΓöÇ ThemeConstants.java # Design system tokens (colors, fonts, borders)
+Γöé           ΓööΓöÇΓöÇ util/
+Γöé               ΓööΓöÇΓöÇ ReportExporter.java # Clipboard copy & file export helper
+Γö£ΓöÇΓöÇ test/
+Γöé   ΓööΓöÇΓöÇ com/
+Γöé       ΓööΓöÇΓöÇ phishguard/
+Γöé           ΓööΓöÇΓöÇ PhishGuardTestRunner.java # Dependency-free automated test runner (13 test suites)
+Γö£ΓöÇΓöÇ docs/
+Γöé   Γö£ΓöÇΓöÇ BEGINNER_SETUP.md               # Step-by-step setup, compilation, and exhibition demo guide
+Γöé   Γö£ΓöÇΓöÇ PROJECT_REPORT.md               # Full college project report (abstract, architecture, algorithms)
+Γöé   Γö£ΓöÇΓöÇ TEST_CASES.md                   # Formal test specification and verification results
+Γöé   Γö£ΓöÇΓöÇ VIVA_QUESTIONS.md               # 28 technical viva questions and answers
+Γöé   ΓööΓöÇΓöÇ TEAM_PLAN.md                    # 4-member roles, responsibilities, and placeholders
+Γö£ΓöÇΓöÇ data/
+Γöé   ΓööΓöÇΓöÇ scan_history.csv                # Persistent local scan log (auto-generated)
+Γö£ΓöÇΓöÇ compile.bat                         # 1-click Windows compilation script
+Γö£ΓöÇΓöÇ run.bat                             # 1-click Windows application launcher
+Γö£ΓöÇΓöÇ test.bat                            # 1-click Windows test suite runner
+Γö£ΓöÇΓöÇ .gitignore                          # Standard git ignore file
+Γö£ΓöÇΓöÇ LICENSE                             # MIT Open-Source License
+ΓööΓöÇΓöÇ README.md                           # Master project documentation
 ```
 
 ---
 
-## 🚀 Quick Start Guide (Windows)
+## ≡ƒÜÇ Quick Start Guide (Windows)
 
 ### Prerequisites:
 - **Operating System:** Windows 10 or 11 (also portable to macOS/Linux).
@@ -142,28 +142,28 @@ java -cp bin com.phishguard.PhishGuardTestRunner
 
 ---
 
-## 🧪 Automated Testing & Verification
+## ≡ƒº¬ Automated Testing & Verification
 
 PhishGuard includes an automated, dependency-free test runner (`PhishGuardTestRunner.java`) that verifies all 13 critical requirements:
-- ✅ Empty and whitespace input handling
-- ✅ Clean HTTPS baseline domains (0 pts)
-- ✅ Unencrypted HTTP detection (+10 pts)
-- ✅ Raw IPv4 address detection (+20 pts)
-- ✅ Embedded `@` credential spoofing (+20 pts)
-- ✅ Length boundary conditions (>100 and >180 chars)
-- ✅ Sensitive keyword recognition
-- ✅ Punycode IDN homograph detection (`xn--`)
-- ✅ Known URL shortener matching
-- ✅ Malformed URL input handling
-- ✅ Score capping at 100 max
-- ✅ Local CSV history persistence and reload
-- ✅ CSV Formula Injection neutralization
+- Γ£à Empty and whitespace input handling
+- Γ£à Clean HTTPS baseline domains (0 pts)
+- Γ£à Unencrypted HTTP detection (+10 pts)
+- Γ£à Raw IPv4 address detection (+20 pts)
+- Γ£à Embedded `@` credential spoofing (+20 pts)
+- Γ£à Length boundary conditions (>100 and >180 chars)
+- Γ£à Sensitive keyword recognition
+- Γ£à Punycode IDN homograph detection (`xn--`)
+- Γ£à Known URL shortener matching
+- Γ£à Malformed URL input handling
+- Γ£à Score capping at 100 max
+- Γ£à Local CSV history persistence and reload
+- Γ£à CSV Formula Injection neutralization
 
 Run `test.bat` to execute the full suite. All 13 tests execute and pass in under 1 second.
 
 ---
 
-## 🌐 GitHub Repository Upload Guide
+## ≡ƒîÉ GitHub Repository Upload Guide
 
 Follow these beginner steps to upload PhishGuard to GitHub:
 
@@ -189,7 +189,7 @@ Follow these beginner steps to upload PhishGuard to GitHub:
 
 ---
 
-## 👥 Four-Person College Team Roles
+## ≡ƒæÑ Four-Person College Team Roles
 
 | Member | Full Name (Placeholder) | Roll Number | Primary Assigned Responsibilities |
 |---|---|---|---|
@@ -203,7 +203,7 @@ Follow these beginner steps to upload PhishGuard to GitHub:
 
 ---
 
-## ⚠️ Important Educational Disclaimer
+## ΓÜá∩╕Å Important Educational Disclaimer
 
 PhishGuard evaluates URLs strictly using **static educational heuristics**. 
 - A **low score** does **NOT** guarantee that a URL or website is harmless.
@@ -212,6 +212,6 @@ PhishGuard evaluates URLs strictly using **static educational heuristics**.
 
 ---
 
-## 📄 License
+## ≡ƒôä License
 
-This project is licensed under the [MIT License](LICENSE) — free for educational and academic use.
+This project is licensed under the [MIT License](LICENSE) ΓÇö free for educational and academic use.
