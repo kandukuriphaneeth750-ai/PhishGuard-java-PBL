@@ -1,0 +1,186 @@
+Timestamp,Submitted URL,Risk Score,Risk Category,Summary Findings
+2026-10-26 18:23:36,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:19,https://www.google.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:26:20,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:21,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:22,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:22,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:23,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:24,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 18:26:25,://broken,0,Invalid Input,Invalid URL: Unable to extract a valid domain or host name from the URL.
+2026-10-26 18:26:26,ftp://files.example.com/data.zip,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:26:26,https://a.b.c.d.e.f.g.example.com/deep/path,10,Low Risk Indicators,1 indicator(s) found (Excessive Subdomains (7 levels))
+2026-10-26 18:26:27,http://evilsite99998888.com/phish,15,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:28,http://test.com/path?login=true&verify=account,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:30,just-some-text,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-26 18:26:31,http://127.0.0.1:8080/admin,30,Moderate Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:32,https://www.paypal.com/signin,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('signin'))
+2026-10-26 18:26:33,http://www.tinyurl.com/abc123,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:33,http://test0.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:33,http://test1.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:33,http://test2.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test3.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test4.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test5.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test6.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test7.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:34,http://test8.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test9.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test10.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test11.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test12.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test13.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:35,http://test14.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:36,http://test15.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:36,http://test16.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:36,http://test17.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:36,http://test18.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:26:36,http://test19.com/login,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 18:56:50,http://example.com,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-26 18:59:11,https://www.google.com/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:59:14,https://www.google.com/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:59:23,https://www.google.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:59:24,https://www.google.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 18:59:24,https://www.google.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:42,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:44,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:44,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:45,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:45,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:45,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:45,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:46,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:46,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:46,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:46,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:47,https://httpbin.org/,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:52,https://httpbin.org,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:52,https://httpbin.org,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:53,https://httpbin.org,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:01:53,https://httpbin.org,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:12,https://example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:15,https://example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:16,https://example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:16,https://example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:17,https://example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:02:17,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:02:34,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:02:59,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:03:00,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:03:00,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:03:00,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:03:00,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:05:08,http://www.wikipedia.org,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-26 19:05:17,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:15,"http:www.example,gov",10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-26 19:29:29,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:29:40,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:29:40,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:29:41,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:43,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:46,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:52,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:57,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:29:59,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 19:30:00,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:30:00,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:01,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:02,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:03,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:04,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:08,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:26,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 19:30:32,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:30:33,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:33,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:34,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:35,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:35,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:36,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 19:30:36,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:30:37,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:37,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:38,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:39,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:40,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:40,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 19:30:41,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:30:41,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:41,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:44,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:45,http://legit-service.com@malicious-redirect.com/update-account,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:30:49,a,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-26 19:31:21,https://herokuapp.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:32:38,https://typicode.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:33:47,https://github.com/octocat/Spoon-Knife,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:35:20,https://github.com/juice-shop/juice-shop,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 19:39:08,https://auth-service.xyz,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('auth'))
+2026-10-26 19:59:43,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:59:50,http://xn--pple-43d.com/verify-credentials,30,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:59:52,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-26 19:59:53,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 19:59:54,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,20,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 19:59:54,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 20:07:42,http://192.168.1.1/login,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 20:07:43,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 20:07:44,https://example.com/test-copy,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:44,https://test-history-selection.org/login,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('login'))
+2026-10-26 20:07:45,https://stress-test-0.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:45,https://stress-test-1.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:45,https://stress-test-2.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:45,https://stress-test-3.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:45,https://stress-test-4.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:45,https://stress-test-5.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-6.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-7.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-8.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-9.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-10.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-11.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-12.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-13.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-14.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-15.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:46,https://stress-test-16.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-17.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-18.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-19.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-20.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-21.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-22.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-23.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:07:47,https://stress-test-24.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:27,http://192.168.1.1/login,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 20:12:28,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 20:12:29,https://example.com/test-copy,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:29,https://test-history-selection.org/login,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('login'))
+2026-10-26 20:12:30,https://stress-test-0.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-1.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-2.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-3.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-4.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-5.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:30,https://stress-test-6.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-7.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-8.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-9.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-10.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-11.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-12.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-13.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-14.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-15.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:31,https://stress-test-16.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-17.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-18.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-19.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-20.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-21.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-22.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-23.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:12:32,https://stress-test-24.example.com,0,Low Risk Indicators,No obvious heuristic indicators triggered.
+2026-10-26 20:21:11,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 20:21:12,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 20:21:26,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-26 22:44:44,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-26 22:44:48,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"

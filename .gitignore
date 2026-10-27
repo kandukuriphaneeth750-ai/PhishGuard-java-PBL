@@ -1,0 +1,36 @@
+# Byte-code and compilation output
+bin/
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Local runtime data and temporary files
+data/test_*.csv
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# Antigravity temporary folders
+.gemini/
+# Java compiled files
+*.class
+
+# Generated build output
+build/
+out/
+target/
+
+# Logs and operating-system files
+*.log
+Thumbs.db
+.DS_Store
