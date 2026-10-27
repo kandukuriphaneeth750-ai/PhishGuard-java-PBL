@@ -186,3 +186,29 @@ Timestamp,Submitted URL,Risk Score,Risk Category,Summary Findings
 2026-10-26 22:44:48,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
 2026-10-27 16:40:55,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
 2026-10-27 16:40:57,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:23,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-27 17:42:25,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:26,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:26,http://legit-service.com@malicious-redirect.com/update-account,50,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:26,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:27,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:27,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-27 17:42:27,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-27 17:42:27,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:27,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:28,http://legit-service.com@malicious-redirect.com/update-account,50,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:28,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:28,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:28,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-27 17:42:29,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-27 17:42:29,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:29,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:29,http://legit-service.com@malicious-redirect.com/update-account,50,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:29,http://bit.ly/claim-free-gift-card-bonus-2026,25,Low Risk Indicators,"2 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:30,http://xn--pple-43d.com/verify-credentials,40,Moderate Risk Indicators,"4 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:30,https://sub1.sub2.sub3.suspicious-domain-name9941.com/portal,15,Low Risk Indicators,"2 indicator(s) found (Excessive Subdomains (3 levels), ...)"
+2026-10-27 17:42:30,https://www.google.com/search?q=cybersecurity,10,Low Risk Indicators,1 indicator(s) found (Sensitive Keyword Detected ('security'))
+2026-10-27 17:42:30,http://secure-login-account-update.banking-verify.xyz/auth?user=victim,80,High Risk Indicators,"8 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 17:42:31,http://192.168.1.105/login.html,40,Moderate Risk Indicators,"3 indicator(s) found (Unencrypted HTTP Protocol, ...)"
+2026-10-27 18:36:46,sdsdesese.com,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
+2026-10-27 18:36:56,sdsdesese.com,10,Low Risk Indicators,1 indicator(s) found (Unencrypted HTTP Protocol)
